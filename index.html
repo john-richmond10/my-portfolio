@@ -4,55 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet"/>
     <title>My Portfolio</title>
 </head>
 
 <header>
-    <h1>John Richmond</h1>
+    <!-- Navigation and Header -->    
     <nav>
-        <a href="#aboutMe">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contactMe">Contact Me</a>
-        <a href="#">Resume</a>
+        <h1 class="name">John Richmond</h1>
+        <img src="./assets/images/avatar.png" alt="guy in front of computer"/>
+        <ul class="list">
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactMe">Contact Me</a></li>
+            <li><a href="#" target="_blank">Resume</a></li>
     </nav>
 </header>
-
+<!-- Main Body -->
 <body>
     <main>
-        <section class="aboutMe">
+        <!-- About me Section -->
+        <section id="aboutMe" class="aboutMe">
             <h2 class="title">About Me</h2>
             <p>My name is John Richmond! I have worked at General Dynamics Electric Boat since 2016 as a Structural/Arrangements draftsman. During my time there I discovered
                 that I love to code. From there I began attending the UConn Coding Bootcamp while still working full time. I have a very strong work ethic and always believe in producing
                 the best possible products.
             </p>
         </section>
-
-        <section class="projects">
+        <!-- Projects Section To Be Updated With More Projects -->
+        <section id="projects" class="projects">
             <h2 class="title">Projects</h2>
-            <figure class="bigProject">
-                <h3>Project 1</h3>
-            </figure>
-            <figure class="smallProjects">
-                <h3>Project 2</h3>
-            </figure>
-            <figure class="smallProjects">
-                <h3>Project 3</h3>
-            </figure>
-            <figure class="smallProjects">
-                <h3>Project 4</h3>
-            </figure>
-            <figure class="smallProjects">
-                <h3>Project 5</h3>
-            </figure>
+            <section class="projectContainer">
+                <figure class="bigProject">
+                    <a href="https://john-richmond10.github.io/css-cheat-sheet/" target="_blank"><img src="./assets/images/css.png" alt="Coming Soon Sign"/></a>
+                    <figcaption>CSS Cheat Sheet</figcaption>
+                </figure>
+                <figure class="smallProjects">
+                    <a href="#" target="_blank"><img src="./assets/images/under-construction.jpg" alt="Coming Soon Sign"/></a>
+                    <figcaption>Project 2</figcaption>
+                </figure>
+                <figure class="smallProjects">
+                    <a href="#" target="_blank"><img src="./assets/images/under-construction.jpg" alt="Coming Soon Sign"/></a>
+                    <figcaption>Project 3</figcaption>
+                </figure>
+                <figure class="smallProjects">
+                    <a href="#" target="_blank"><img src="./assets/images/under-construction.jpg" alt="Coming Soon Sign"/></a>
+                    <figcaption>Project 4</figcaption>
+                </figure>
+                <figure class="smallProjects">
+                    <a href="#" target="_blank"><img src="./assets/images/under-construction.jpg" alt="Coming Soon Sign"/></a>
+                    <figcaption>Project 5</figcaption>
+                </figure>
+            </section>    
         </section>
-
-        <section class="contactMe">
+        <!-- Contact Me Section -->
+        <section id="contactMe" class="contactMe">
             <h2 class="title">Contact Me!</h2>
-                <p>860-933-7234</p>
-                <p>john.richmond1096@gmail.com</p>
-                <a href="https://github.com/john-richmond10">GitHub</a>
+                <ul class="list">
+                    <li>860-933-7234</li>
+                    <li>john.richmond1096@gmail.com</li>
+                    <li><a href="https://github.com/john-richmond10">GitHub</a></li>
+                </ul>
         </section>
     </main>
     
