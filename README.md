@@ -10,5 +10,5 @@ This will be given to potential employers to show my qualites and skills!
 https://john-richmond10.github.io/my-portfolio/
 
     ```md
-    ![picture of header](assets/images/website-picture.PNG)
+    ![picture of header](assets/images/website-picture.png)
     ```
