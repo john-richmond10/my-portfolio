@@ -7,6 +7,8 @@ This will be given to potential employers to show my qualites and skills!
 
 ## Link To Site
 
-```md
-    ![picture of header](assets/images/website-picture.PNG
+https://john-richmond10.github.io/my-portfolio/
+
+    ```md
+    ![picture of header](assets/images/website-picture.PNG)
     ```
